@@ -1,0 +1,50 @@
+:root {
+	/* fonts */
+	--main-font: "Open Sans", sans-serif;
+	--second-font: "Raleway", sans-serif;
+
+	/* text colors */
+	--prime-color: #303030;
+	--active-color: #ff6c00;
+	--prime-white: #ffffff;
+	--grey-color: #555555;
+	--prime-bg-color: #2f303a;
+	--second-bg-color: #f5f4fa;
+
+	/* background color */
+	--light-bg-color: #f7f7f7;
+	--dark-bg-color: #191c26;
+
+	/* others */
+}
+
+body {
+	font-family: var(--main-font);
+	color: var(--prime-color);
+}
+
+/* reset styles */
+.link {
+	text-decoration: none;
+	color: currentColor;
+}
+
+.list {
+	list-style: none;
+}
+
+.current-link {
+	color: var(--active-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+/* Header */
